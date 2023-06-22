@@ -1,0 +1,259 @@
+h1{
+    text-align: right;
+    color: blue;
+}
+
+
+/****** COLORS  ********/
+.color{
+    color: darkorchid;
+    /* padding: 50px 40px 30px 20px;
+    padding-left: 50px ;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-right: 20px; */
+    margin: 10px;
+}
+
+.rgb{
+    /* color: rgb(104, 3, 193); */
+    color: rgba(255,0,0,0.8);
+    margin: 30px 60px 50px 40px;
+}
+
+.hex{
+    /* color: #5b8858; */
+    color:#00e;
+    border: 10px dotted #4a5;
+
+}
+
+/****** BOX MODEL ***********/
+.box1{
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    /* padding: 10px 20px 30px 40px; */
+    /* padding-left:  ;
+    padding-top: ;
+    padding-bottom: ;
+    padding-right: ; */
+    margin: 30px;
+    /* margin-top: ;
+    margin-bottom: ;
+    margin-left: ;
+    margin-right: ; */
+    border: 1px solid black;
+
+    /* border-radius: 100%; */
+    /* position: absolute;
+    top: calc(50% - 90px);
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+#box2{
+    width: fit-content;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 20px;
+
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+/****** DISPLAY ***********/
+
+span{
+    display: block;
+}
+
+/* DISPLAY : BLOCK */
+ .block1{
+    height: 100px;
+    width: 500px;
+    background-color: rgb(250, 9, 214);
+    display: block;
+}
+.block2{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(255, 77, 0);
+    display: block;
+}
+.block3{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(0, 255, 115);
+    display: block;
+}
+.block4{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(255, 0, 55);
+    display: block;
+}
+.block5{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(242, 255, 0);
+    display: block;
+}
+
+/* DISPLAY : INLINE */
+.inline1{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(250, 9, 214);
+    display: inline;
+}
+
+.inline2{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(157, 157, 34);
+    display: inline;
+}
+
+.inline3{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(250, 29, 9);
+    display: inline;
+}
+
+.inline4{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(9, 250, 61);
+    display: inline;
+}
+
+.inline5{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(250, 9, 214);
+    display: inline;
+}
+
+/* DISPLAY : INLINE - BLOCK */
+
+.parent-inline{
+    height: 100px;
+    width: 300px;
+    background-color: aqua;
+    display: inline-block;
+}
+.inline-block1{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(250, 9, 214);
+    display: inline-block;
+}
+.inline-block2{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(255, 77, 0);
+    display: inline-block;
+}
+.inline-block3{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(0, 255, 115);
+    display: inline-block;
+}
+.inline-block4{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(255, 0, 55);
+    display: inline-block;
+}
+.inline-block5{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(242, 255, 0);
+    display: inline-block;
+}
+
+/* ***** POSITIONS ******/
+.static{
+    position: static;
+    color: #0000ff;
+}
+
+.fixed{
+    position: fixed;
+    top: 300px;
+    /* left: 50%; */
+    /* right: 0px; */
+}
+
+.sticky{
+    position: sticky;
+    top: 150px;
+    color: rgb(238, 7, 7);
+    font-size: 50px;
+}
+
+.relative{
+    position: relative;
+    top: 100px;
+    /* left: 100px; */
+    border: 3px solid green;
+    width: 30%;
+}
+
+.parent1{
+    position: relative;
+    width: 300px;
+    height: 100px;
+    border: 10px solid green;
+}
+
+.child1{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    border: 5px solid blue;
+    /* top: 0px; */
+    /* left: 0px; */
+    bottom: 0px;
+    right: 0px;
+}
+
+.absolute{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    border: 10px solid red;
+    /* top: 0px; */
+    left: 100px;
+    /* right: 0px; */
+    bottom: 200px;
+}
+
+/****** TRANSFORM TRANSLATE ***********/
+.circle{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 100%;
+
+    position: absolute;
+    top: calc(50% - 100px);
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#sqaure{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* transform: translate(); */
+}

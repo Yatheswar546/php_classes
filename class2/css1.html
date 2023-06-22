@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Day 1</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <style>
+        h1{
+            text-align: left;
+            color: red;
+        }
+        .heading1{
+            color: blue;
+            font-weight: 400;
+        }
+        #heading1{
+            color: green;
+            font-weight: 600;
+        }
+        h2, h3, h4{
+            color: blueviolet;
+        }
+    </style>
+
+
+</head>
+<body>
+
+    <!-- CSS 
+        Types : Inline, Internal, External
+        inline > internal > external
+    -->
+    <!-- <h1 style="text-align: center;">Types of CSS</h1> -->
+
+    <!-- CSS SELECTORS
+        1) tag selectors
+        2) class - .
+        3) id - #
+        4) universal - *
+        5) Grouping
+    -->
+
+    <!-- <h1 class="heading1">
+        CSS SELECTORS
+    </h1>
+    <h1 id="heading1">ID SELECTOR</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4> -->
+
+    <!-- Colors 
+        1) color name
+        2) rgb/rgba  - (red,green,blue) - (0,255) - rgba - (red, green, blue, alpha) - alpha(0-1)
+        3) hex -        #00  00  00  (0-f)
+    -->
+
+    <!-- <h1>Colors</h1>
+    <h2 class="color">Color - using color name</h2>
+    <h2 class="rgb"> Color - Using rgb/rgba</h2>
+    <h2 class="hex">Color - Using hex</h2> -->
+
+ 
+    <!-- BOX MODEL 
+        1.Padding - Internal Spacing
+        2.Margin - External Spacing
+        3.Border
+        4.Outline
+    -->
+
+    <!-- <h1 class="box1">BOX1</h1>
+    <h1 id="box2">BOX2</h1>
+
+    <h1 style="text-align: center;">Display & Positions</h1> -->
+    <!-- 
+        Display:
+        1. Block
+        2. Inline
+        3. Inline-Block
+     -->
+
+    <!-- <h2>Display</h2> -->
+     <!-- If we apply block then span tags will come one after another or else in same line -->
+    <!-- <span>Hii Everybody</span>
+    <span>Welcome to today's class</span> -->
+
+
+    <!-- <h2>Example of Display : Block</h2>
+     <div class="parent">
+         <div class="block1">MEAN</div>
+         <div class="block2">MERN</div>
+         <div class="block3">JAVA</div>
+         <div class="block4">C</div>
+         <div class="block5">Python</div>
+     </div> -->
+ 
+     <!-- <h2>Example of Display : Inline</h2>
+     <div class="parent">
+         <div class="inline1">MEAN</div>
+         <div class="inline2">MERN</div>
+         <div class="inline3">JAVA</div>
+         <div class="inline4">C</div>
+         <div class="inline5">Python</div>
+     </div> -->
+     
+     <!-- <h2>Example of Display : Inline-Block</h2>
+     <div class="parent">
+         <div class="inline-block1">MEAN</div>
+         <div class="inline-block2">MERN</div> 
+         <div class="inline-block3">JAVA</div>
+         <div class="inline-block4">C</div>
+         <div class="inline-block5">Python</div>
+     </div> -->
+
+
+     <!-- POSITIONS  
+        1. Static / defualt
+        2. Relative : Its relative to its original position
+        3. Fixed : It's position is fixed & offset value works w.r.t screen & sometimes the text might get collapsed
+        4. Absolute : Shoule have a parent of relative position & offset works w.r.t parent by default body
+        5. Sticky : It is similar to fixed
+    
+    -->
+    <!-- <h1 style="text-align: center; padding: 10px; border: 1px solid black;">Positions</h1> -->
+
+    <!-- <div class="static">
+        <h2>Static</h2>
+    </div> -->
+
+    <!-- <div class="fixed">
+        <h2>FIXED</h2>
+    </div> -->
+
+    <!-- <h2 style="text-align: left;">Sticky</h2>
+    <h4>Hello</h4>
+    <h4>Hello</h4>
+    <h4>Hello</h4>    
+    <h4>Hello</h4>
+    <h4>Hello</h4>
+    <h4>Hello</h4>
+    <h4>Hello</h4>
+    <h4>Hello</h4>
+    <h4>Hello</h4>
+    <h4>Hello</h4>
+    <h4>Hello</h4>
+    <h4>Hello</h4>
+    <h4>Hello</h4>    
+    <h4>Hello</h4>
+    <h4>Hello</h4>
+    <h4 class="sticky">Hello</h4>
+    <h4>Hello</h4>
+    <h4>Hello</h4>
+    <h4>Hello</h4>
+    <h4>Hello</h4>
+    <h4>Hello</h4>
+    <h4>Hello</h4>
+    <h4>Hello</h4>    
+    <h4>Hello</h4>
+    <h4>Hello</h4>
+    <h4>Hello</h4>
+    <h4>Hello</h4>
+    <h4>Hello</h4>
+    <h4>Hello</h4>
+    <h4>Hello</h4>
+    <h4>Hello</h4>
+    <h4>Hello</h4>
+    <h4>Hello</h4>    
+    <h4>Hello</h4>
+    <h4>Hello</h4>
+    <h4>Hello</h4>
+    <h4>Hello</h4>
+    <h4>Hello</h4>
+    <h4>Hello</h4>
+    <h4>Hello</h4> -->
+    
+     <!-- <div class="relative">
+        <h2>Relative</h2>
+    </div> -->
+
+    <!-- <h2>Absolute</h2> -->
+    <!-- <div class="parent1">
+        <div class="child1">
+
+        </div>
+    </div> -->
+
+    <!-- Default screen is parent class as relative -->
+    <!-- <div class="absolute">
+
+    </div> -->
+
+    <!-- Transform Translate
+        Place Square at center of screen & place circle on it
+    -->
+
+    <h1 class="circle"></h1>
+    <h1 id="sqaure"></h1>
+
+
+
+
+
+</body>
+</html>

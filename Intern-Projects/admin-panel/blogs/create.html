@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive admin dashboard</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../../css/admin.css">
+    
+    <!-- Box Icons Link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+
+
+    <!----------------MAIN SECTION ----------------------------->
+    <div class="main">
+        <!------------- Top Search Bar ---------------------->
+        <div class="topbar">
+            <div class="name">
+                Welcome Yatheswar
+            </div>
+            <div class="user">
+                <img src="../images/p1.png">
+            </div>
+        </div>
+
+        <!-- Admin Content -->
+        <div class="admin-content">
+            <div class="button-group">
+                <a href="./create.html" class="admin-btn btn-blg">Add Blog</a>
+                <a href="./index.html" class="admin-btn btn-blg">Manage Blogs</a>
+            </div>
+
+            <div class="content">
+                <h2 class="page-title">Create a Blog</h2>
+
+                <form action="create.html">
+                    <div>
+                        <label>Title</label>
+                        <input type="text" name="title" id="" class="text-input">
+                    </div>
+                    <div>
+                        <label>Description</label>
+                        <textarea name="description" id="description"></textarea>
+                    </div>
+                    <div>
+                        <label>Image</label>
+                        <input type="file" name="image" class="text-input">
+                    </div>
+                    <!-- <div>
+                        <label>Topic</label>
+                        <select name="topic" class="text-input">
+                            <option value="">Graphic Designing</option>
+                            <option value="">Video Editing</option>
+                        </select>
+                    </div> -->
+                    <div>
+                        <label>Category</label>
+                        <input type="text" name="category" id="category" class="text-input">
+                    </div>
+                    <div>
+                        <button type="submit" class="admin-btn btn-blg">Add Post</button>
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <!----- CkEditor 5 Script -------------------->
+    <script src="https://cdn.ckeditor.com/ckeditor5/35.4.0/classic/ckeditor.js"></script>
+
+    <script src="../../js/script.js"></script>
+
+</body>
+</html>

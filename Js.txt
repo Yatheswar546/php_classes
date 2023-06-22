@@ -1,0 +1,12 @@
+Js intro
+Js connections
+Js outputs
+Js indentifiers (A-Z, a-z, $, _ )
+Js variables (var let const )
+Js Scope (Function/Global & Block)
+Js operators (Airthmetic, Assignment, Comparison, String, Logical, Bitwise, Ternary, Type)
+Js Data Types(String, Number, BigInt, Boolean, Undefined, Null,Object - An object, An Array, A date)
+Js Type Conversion 
+Js Hoisting
+Js conditional statememts (if, else, elseif, switch)
+Js loops (for, for in, for of, while, do-while)
