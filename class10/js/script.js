@@ -27,7 +27,7 @@ btn.addEventListener('click', function() {
 
 
 var initialSize = window.getComputedStyle(element).fontSize;
-// var initialSize = "2009px"
+// var initialSize = "200px"
 
 initialSize = parseInt(initialSize.substring(0, (initialSize.length - 2)));
 // console.log(typeof(initialSize))

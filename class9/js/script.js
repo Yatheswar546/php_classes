@@ -9,13 +9,13 @@ var initialCountdown = countDown.innerHTML
 
 // console.log(bgImage.src)
 // bgImage.src = "./images/bg2.jpg"
-
+ 
 var interval = setInterval(function(){
 
     initialCountdown = initialCountdown > 0 ? initialCountdown -=1 : 0
     // initialCountdown = initialCountdown-1;
     // console.log(initialCountdown);
-    countDown.innerHTML = initialCountdown;
+    countDown.innerHTML = initialCountdown; 
 
     // countDown.style.fontSize = initialCountdown * 100 + "px";
 

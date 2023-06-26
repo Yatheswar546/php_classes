@@ -97,7 +97,7 @@ y = document.getElementById("class2");
 // console.log(y);
 y.innerHTML = "Updated Element 2";
 
-// 2) element.attribute
+// 2) element.attribute 
 
 image = document.getElementById('image');
 // console.log(image.src)
@@ -105,4 +105,6 @@ image.src = "./images/bg2.jpg"
 
 counter = document.getElementById('counter');
 console.log(counter);
+
+// 3) element.style.property
 counter.style.fontSize = "30px";
